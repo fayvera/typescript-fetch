@@ -25,5 +25,26 @@ const logTodo = (id: number, title: string, completed: boolean) => {
   Is it completed? ${completed}
   `)
 };
+
+
+
+// Array
+let colors: string[] = ['red', "blue", "green"];
+
+// Classes
+class Car {
+
+};
+let car: Car = new Car();
+
+// Object Literals
+
+let point: {x: number; y: number} = {
+  x: 10,
+  y: 5
+}
+
+
+
 // ts-node index.ts
 // this command combines "tsc index.ts" & "node index.js"

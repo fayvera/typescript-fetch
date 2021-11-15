@@ -2,6 +2,8 @@ import axios from 'axios';
 
 const url = "https://jsonplaceholder.typicode.com/todos/1"
 
+
+// all these are type annotations, not type inferences
 interface Todo {
   id: number;
   title: string;
@@ -53,6 +55,11 @@ const logNumber: (i: number) => void = (i: number) => {
 
 //" (i:number) => void" is the annotation, it is telling typescript that it will receive a number i as an argument
 // and return nothing, so use the keyword "void"
+
+
+// Avoid variables with "any" type at ALL COSTS
+
+
 
 
 
